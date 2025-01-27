@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>DreamPart</defName>
+        <label>dream part</label>
+        <description>A captured fragment of a dream. Can be combined with other dream parts in a Dream Lab to create usable dream items.</description>
+        <graphicData>
+            <texPath>Things/Item/DreamPart</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Standard_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>75</stackLimit>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <MarketValue>25</MarketValue>
+            <Mass>0.1</Mass>
+            <Flammability>1.0</Flammability>
+            <DeteriorationRate>0</DeteriorationRate>
+        </statBases>
+        <thingCategories>
+            <li>Items</li>
+        </thingCategories>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+        <thingClass>Dreams.DreamPart</thingClass>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>CraftedDream</defName>
+        <label>crafted dream</label>
+        <description>A complete dream crafted from dream parts. Can be used on pawns for mood effects or sent to other factions via Dream Pod.</description>
+        <graphicData>
+            <texPath>Things/Item/CraftedDream</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Standard_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <MarketValue>100</MarketValue>
+            <Mass>0.3</Mass>
+            <Flammability>1.0</Flammability>
+            <DeteriorationRate>0</DeteriorationRate>
+        </statBases>
+        <thingCategories>
+            <li>Items</li>
+        </thingCategories>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseDream</useJob>
+                <useLabel>Apply dream</useLabel>
+                <useDuration>300</useDuration>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

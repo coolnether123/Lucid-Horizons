@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>DreamCatcher</name>
+    <author>CoolNether123</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>CoolNether123.DreamCatcher</packageId>
+    <description>A mod that introduces dreams into RimWorld. Pawns can experience good or bad dreams, capture them with dream catchers, and craft them into usable dream items for mood effects, faction relations, or even power generation.
+
+Features:
+- Dream generation during deep sleep
+- Dream Catchers to collect dream parts
+- Dream Lab for crafting special dream items
+- Dream Pod for affecting faction relations
+- Optional Dream Engine for power generation
+
+Dreams are influenced by bed quality and room impressiveness, making your colonists' sleeping arrangements more important than ever!</description>
+</ModMetaData>

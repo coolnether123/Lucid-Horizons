@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Dream Catcher -->
+    <ThingDef ParentName="BuildingBase">
+        <defName>DreamCatcher</defName>
+        <label>dream catcher</label>
+        <description>A mystical device that captures dreams from sleeping pawns. Must be placed in a bedroom to function. Can store up to 4 dream parts.</description>
+        <thingClass>Building_Storage</thingClass>
+        <graphicData>
+            <texPath>Things/Building/DreamCatcher</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.4</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <pathCost>14</pathCost>
+        <statBases>
+            <WorkToBuild>1000</WorkToBuild>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <Mass>5</Mass>
+        </statBases>
+        <size>(2,2)</size>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <building>
+            <preventDeteriorationInside>true</preventDeteriorationInside>
+            <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+        </building>
+        <designationCategory>Misc</designationCategory>
+        <constructEffect>ConstructMetal</constructEffect>
+        <researchPrerequisites>
+            <li>DreamTechnology</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <!-- Dream Lab -->
+    <ThingDef ParentName="BuildingBase">
+        <defName>DreamLab</defName>
+        <label>dream lab</label>
+        <description>A specialized workbench for combining dream parts into usable dream items. Requires power to function.</description>
+        <thingClass>Building_WorkTable</thingClass>
+        <graphicData>
+            <texPath>Things/Building/DreamLab</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.5,3.5)</drawSize>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <castEdgeShadows>true</castEdgeShadows>
+        <constructEffect>ConstructMetal</constructEffect>
+        <costList>
+            <Steel>120</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+            <Plasteel>20</Plasteel>
+        </costList>
+        <statBases>
+            <WorkToBuild>3000</WorkToBuild>
+            <MaxHitPoints>180</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <size>(3,2)</size>
+        <designationCategory>Production</designationCategory>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>200</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(115,198,206,255)</glowColor>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li>AdvancedDreamCrafting</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <!-- Dream Pod -->
+    <ThingDef ParentName="BuildingBase">
+        <defName>DreamPod</defName>
+        <label>dream pod</label>
+        <description>A specialized pod capable of transmitting dream items to other factions. Uses chemfuel as fuel.</description>
+        <thingClass>Building_PodLauncher</thingClass>
+        <graphicData>
+            <texPath>Things/Building/DreamPod</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <size>(2,2)</size>
+        <comps>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>75.0</fuelConsumptionRate>
+                <fuelCapacity>75.0</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </fuelFilter>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li>DreamEngineering</li>
+        </researchPrerequisites>
+    </ThingDef>
+</Defs>

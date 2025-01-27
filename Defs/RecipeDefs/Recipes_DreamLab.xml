@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Base dream crafting recipe -->
+    <RecipeDef Abstract="True" Name="DreamCraftingBase">
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>1000</workAmount>
+        <workSkill>Intellectual</workSkill>
+        <recipeUsers>
+            <li>DreamLab</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Intellectual>4</Intellectual>
+        </skillRequirements>
+    </RecipeDef>
+
+    <!-- Combine Dream Parts -->
+    <RecipeDef ParentName="DreamCraftingBase">
+        <defName>CombineDreamParts</defName>
+        <label>combine dream parts</label>
+        <description>Combine three dream parts to create a crafted dream.</description>
+        <jobString>Combining dream parts.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DreamPart</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>DreamPart</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <CraftedDream>1</CraftedDream>
+        </products>
+    </RecipeDef>
+
+    <!-- Analyze Dream Parts -->
+    <RecipeDef ParentName="DreamCraftingBase">
+        <defName>AnalyzeDreamPart</defName>
+        <label>analyze dream part</label>
+        <description>Analyze a dream part to gain research points.</description>
+        <jobString>Analyzing dream part.</jobString>
+        <workAmount>2000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DreamPart</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>DreamPart</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <specialProducts>
+            <li>Smelted</li>
+			</specialProducts>
+		<skillRequirements>
+            <Intellectual>6</Intellectual>
+        </skillRequirements>
+    </RecipeDef>
+
+    <!-- Enhance Dream -->
+    <RecipeDef ParentName="DreamCraftingBase">
+        <defName>EnhanceDream</defName>
+        <label>enhance dream</label>
+        <description>Use additional dream parts to enhance an existing crafted dream.</description>
+        <jobString>Enhancing dream.</jobString>
+        <workAmount>1500</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>CraftedDream</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DreamPart</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>CraftedDream</li>
+                <li>DreamPart</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <CraftedDream>1</CraftedDream>
+        </products>
+        <skillRequirements>
+            <Intellectual>8</Intellectual>
+        </skillRequirements>
+    </RecipeDef>
+
+    <!-- Split Dream -->
+    <RecipeDef ParentName="DreamCraftingBase">
+        <defName>SplitDream</defName>
+        <label>split dream</label>
+        <description>Split a crafted dream back into its component parts. Some parts may be lost in the process.</description>
+        <jobString>Splitting dream.</jobString>
+        <workAmount>800</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>CraftedDream</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>CraftedDream</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <DreamPart>2</DreamPart>
+        </products>
+        <skillRequirements>
+            <Intellectual>5</Intellectual>
+        </skillRequirements>
+    </RecipeDef>
+</Defs>

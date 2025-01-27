@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Dream Types -->
+    <DreamTypeNightTerror>Night Terror</DreamTypeNightTerror>
+    <DreamTypeNightmare>Nightmare</DreamTypeNightmare>
+    <DreamTypeMid>Strange Dream</DreamTypeMid>
+    <DreamTypeEpic>Epic Dream</DreamTypeEpic>
+    <DreamTypeInspirational>Inspirational Dream</DreamTypeInspirational>
+
+    <!-- Dream Vividness -->
+    <DreamVividnessFaint>Faint</DreamVividnessFaint>
+    <DreamVividnessDull>Dull</DreamVividnessDull>
+    <DreamVividnessNormal>Normal</DreamVividnessNormal>
+    <DreamVividnessVivid>Vivid</DreamVividnessVivid>
+    <DreamVividnessLucid>Lucid</DreamVividnessLucid>
+
+    <!-- Building Labels -->
+    <DreamCatcherLabel>Dream Catcher</DreamCatcherLabel>
+    <DreamLabLabel>Dream Lab</DreamLabLabel>
+    <DreamPodLabel>Dream Pod</DreamPodLabel>
+
+    <!-- Building Descriptions -->
+    <DreamCatcherDesc>A mystical device that captures dreams from sleeping pawns. Must be placed in a bedroom to function.</DreamCatcherDesc>
+    <DreamLabDesc>A specialized workbench for combining dream parts into usable dream items.</DreamLabDesc>
+    <DreamPodDesc>A specialized pod capable of transmitting dream items to other factions.</DreamPodDesc>
+
+    <!-- Messages -->
+    <DreamPartCollected>{0} collected a dream part.</DreamPartCollected>
+    <DreamCaptured>{0}'s dream was caught by the dream catcher!</DreamCaptured>
+    <DreamLabNoPower>Dream Lab has no power.</DreamLabNoPower>
+    <DreamPodNotLoaded>Dream Pod is not loaded.</DreamPodNotLoaded>
+    <DreamPodNoFuel>Dream Pod needs fuel.</DreamPodNoFuel>
+    <DreamSentSuccess>Dream sent to {0}. Relations have {1}.</DreamSentSuccess>
+    <DreamRelationsImproved>improved</DreamRelationsImproved>
+    <DreamRelationsWorsened>worsened</DreamRelationsWorsened>
+
+    <!-- UI Elements -->
+    <CollectDreams>Collect Dreams</CollectDreams>
+    <CollectDreamsDesc>Collect stored dream parts from the dream catcher.</CollectDreamsDesc>
+    <AnalyzeDreams>Analyze Dreams</AnalyzeDreams>
+    <AnalyzeDreamsDesc>Analyze stored dream parts to gain insights.</AnalyzeDreamsDesc>
+    <LaunchDream>Launch Dream</LaunchDream>
+    <LaunchDreamDesc>Launch a dream to affect another faction.</LaunchDreamDesc>
+    <SelectTargetFaction>Select Target Faction</SelectTargetFaction>
+
+    <!-- Research -->
+    <ResearchDreamTechnology>Dream Technology</ResearchDreamTechnology>
+    <ResearchDreamTechnologyDesc>Learn to build Dream Catchers, allowing the collection of dream parts from sleeping colonists.</ResearchDreamTechnologyDesc>
+    <ResearchAdvancedDreamCrafting>Advanced Dream Crafting</ResearchAdvancedDreamCrafting>
+    <ResearchAdvancedDreamCraftingDesc>Build Dream Labs to combine dream parts into powerful dream items that can affect mood and inspiration.</ResearchAdvancedDreamCraftingDesc>
+    <ResearchDreamEngineering>Dream Engineering</ResearchDreamEngineering>
+    <ResearchDreamEngineeringDesc>Advanced dream manipulation technology allowing the construction of Dream Pods for affecting faction relations through dreams.</ResearchDreamEngineeringDesc>
+
+    <!-- Dream Effects -->
+    <DreamEffectPositive>This dream will improve mood by {0}.</DreamEffectPositive>
+    <DreamEffectNegative>This dream will worsen mood by {0}.</DreamEffectNegative>
+    <DreamAboutFriend>The dream features someone they care about.</DreamAboutFriend>
+    <DreamAboutRival>The dream features someone they dislike.</DreamAboutRival>
+
+    <!-- Storage -->
+    <StoredDreams>Stored dreams: {0}/{1}</StoredDreams>
+    <DreamStorageFull>Dream Catcher is full</DreamStorageFull>
+    <NoDreamsStored>No dreams stored</NoDreamsStored>
+
+    <!-- Errors -->
+    <ErrorNoDreamCatcher>No Dream Catcher in room</ErrorNoDreamCatcher>
+    <ErrorDreamCatcherFull>Dream Catcher is full</ErrorDreamCatcherFull>
+    <ErrorNoPawn>No valid pawn found</ErrorNoPawn>
+    <ErrorNoRoom>Not in a valid room</ErrorNoRoom>
+</LanguageData>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Night Terror -->
+    <ThoughtDef>
+        <defName>ExperiencedNightTerror</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>night terror</label>
+                <description>I experienced a terrifying dream that felt all too real. The horror still lingers...</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- Nightmare -->
+    <ThoughtDef>
+        <defName>ExperiencedNightmare</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>nightmare</label>
+                <description>I had a disturbing dream that left me feeling uneasy.</description>
+                <baseMoodEffect>-12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- Mid Dream -->
+    <ThoughtDef>
+        <defName>ExperiencedMidDream</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>strange dream</label>
+                <description>I had an odd dream. Not particularly good or bad, just... different.</description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- Epic Dream -->
+    <ThoughtDef>
+        <defName>ExperiencedEpicDream</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>epic dream</label>
+                <description>I had an amazing dream that filled me with wonder and excitement!</description>
+                <baseMoodEffect>12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- Inspirational Dream -->
+    <ThoughtDef>
+        <defName>ExperiencedInspirationalDream</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>inspirational dream</label>
+                <description>I experienced a truly inspiring dream that has changed my perspective on everything!</description>
+                <baseMoodEffect>20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- Dream Subject Modifiers -->
+    <ThoughtDef>
+        <defName>DreamAboutFriend</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>dreamed about friend</label>
+                <description>I had a dream about someone I care about.</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>DreamAboutRival</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>dreamed about rival</label>
+                <description>I had an unsettling dream about someone I don't like.</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- Vividness Multipliers are handled in code via DreamPart.GetMoodEffect() -->
+</Defs>
