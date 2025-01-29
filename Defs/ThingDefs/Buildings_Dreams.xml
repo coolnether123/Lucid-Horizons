@@ -9,7 +9,7 @@
         <graphicData>
             <texPath>Things/Building/DreamCatcher</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(2,2)</drawSize>
+            <drawSize>(1,1)</drawSize>
         </graphicData>
         <tickerType>Normal</tickerType>
         <altitudeLayer>Building</altitudeLayer>
@@ -23,7 +23,7 @@
             <Flammability>1.0</Flammability>
             <Mass>5</Mass>
         </statBases>
-        <size>(2,2)</size>
+        <size>(1,1)</size>
         <costList>
             <Steel>50</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
@@ -48,7 +48,7 @@
         <graphicData>
             <texPath>Things/Building/DreamLab</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>(3.5,3.5)</drawSize>
+            <drawSize>(3.5,1.5)</drawSize>
         </graphicData>
         <tickerType>Normal</tickerType>
         <castEdgeShadows>true</castEdgeShadows>
@@ -63,7 +63,7 @@
             <MaxHitPoints>180</MaxHitPoints>
             <Flammability>1.0</Flammability>
         </statBases>
-        <size>(3,2)</size>
+        <size>(3,1)</size>
         <designationCategory>Production</designationCategory>
         <comps>
             <li Class="CompProperties_Power">
