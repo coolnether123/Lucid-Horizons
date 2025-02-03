@@ -34,6 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\2009463077\1.4\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +52,7 @@
     <Compile Include="DreamSystem\DreamManager.cs" />
     <Compile Include="DreamSystem\DreamPart.cs" />
     <Compile Include="DreamSystem\DreamUtility.cs" />
+    <Compile Include="Dreamworlds\BiomeWorker_Dreamworld.cs" />
     <Compile Include="HarmonyPatches\DreamsMod.cs" />
     <Compile Include="Jobs\JobDriver_CollectDreamPart.cs" />
     <Compile Include="Jobs\JobDriver_UseDream.cs" />
