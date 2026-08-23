@@ -20,13 +20,13 @@
     <DreamPodLabel>Dream Pod</DreamPodLabel>
 
     <!-- Building Descriptions -->
-    <DreamCatcherDesc>A mystical device that captures dreams from sleeping pawns. Must be placed in a bedroom to function.</DreamCatcherDesc>
-    <DreamLabDesc>A specialized workbench for combining dream parts into usable dream items.</DreamLabDesc>
-    <DreamPodDesc>A specialized pod capable of transmitting dream items to other factions.</DreamPodDesc>
+    <DreamCatcherDesc>A device that captures dream parts from sleeping pawns. It must be placed in a bedroom.</DreamCatcherDesc>
+    <DreamLabDesc>A workbench for combining dream parts into crafted dreams.</DreamLabDesc>
+    <DreamPodDesc>A pod that sends crafted dreams to other factions.</DreamPodDesc>
 
     <!-- Messages -->
     <DreamPartCollected>{0} collected a dream part.</DreamPartCollected>
-    <DreamCaptured>{0}'s dream was caught by the dream catcher!</DreamCaptured>
+    <DreamCaptured>The dream catcher captured {0}'s dream.</DreamCaptured>
     <DreamLabNoPower>Dream Lab has no power.</DreamLabNoPower>
     <DreamPodNotLoaded>Dream Pod is not loaded.</DreamPodNotLoaded>
     <DreamPodNoFuel>Dream Pod needs fuel.</DreamPodNoFuel>
@@ -38,18 +38,18 @@
     <CollectDreams>Collect Dreams</CollectDreams>
     <CollectDreamsDesc>Collect stored dream parts from the dream catcher.</CollectDreamsDesc>
     <AnalyzeDreams>Analyze Dreams</AnalyzeDreams>
-    <AnalyzeDreamsDesc>Analyze stored dream parts to gain insights.</AnalyzeDreamsDesc>
+    <AnalyzeDreamsDesc>Study stored dream parts.</AnalyzeDreamsDesc>
     <LaunchDream>Launch Dream</LaunchDream>
     <LaunchDreamDesc>Launch a dream to affect another faction.</LaunchDreamDesc>
     <SelectTargetFaction>Select Target Faction</SelectTargetFaction>
 
     <!-- Research -->
     <ResearchDreamTechnology>Dream Technology</ResearchDreamTechnology>
-    <ResearchDreamTechnologyDesc>Learn to build Dream Catchers, allowing the collection of dream parts from sleeping colonists.</ResearchDreamTechnologyDesc>
+    <ResearchDreamTechnologyDesc>Learn to build Dream Catchers and collect dream parts from sleeping colonists.</ResearchDreamTechnologyDesc>
     <ResearchAdvancedDreamCrafting>Advanced Dream Crafting</ResearchAdvancedDreamCrafting>
-    <ResearchAdvancedDreamCraftingDesc>Build Dream Labs to combine dream parts into powerful dream items that can affect mood and inspiration.</ResearchAdvancedDreamCraftingDesc>
+    <ResearchAdvancedDreamCraftingDesc>Learn to build Dream Labs, where colonists can combine dream parts into crafted dreams.</ResearchAdvancedDreamCraftingDesc>
     <ResearchDreamEngineering>Dream Engineering</ResearchDreamEngineering>
-    <ResearchDreamEngineeringDesc>Advanced dream manipulation technology allowing the construction of Dream Pods for affecting faction relations through dreams.</ResearchDreamEngineeringDesc>
+    <ResearchDreamEngineeringDesc>Learn to build Dream Pods and send crafted dreams that change faction relations.</ResearchDreamEngineeringDesc>
 
     <!-- Dream Effects -->
     <DreamEffectPositive>This dream will improve mood by {0}.</DreamEffectPositive>

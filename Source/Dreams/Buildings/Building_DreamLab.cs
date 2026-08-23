@@ -87,12 +87,12 @@ namespace Dreams
                     yield return new Command_Action
                     {
                         defaultLabel = "Analyze Dreams",
-                        defaultDesc = "Analyze stored dream parts to gain insights.",
+                        defaultDesc = "Study stored dream parts.",
                         icon = ContentFinder<Texture2D>.Get("UI/Commands/AnalyzeDreams", true),
                         action = () =>
                         {
                             // TODO: Implement dream analysis functionality
-                            Messages.Message("Dream analysis not yet implemented.", 
+                            Messages.Message("Dream analysis is not available yet.",
                                 MessageTypeDefOf.RejectInput);
                         }
                     };

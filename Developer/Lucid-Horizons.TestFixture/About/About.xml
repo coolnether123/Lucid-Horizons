@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Lucid Horizons Test Fixture</name>
+  <author>CoolNether123</author>
+  <packageId>CoolNether123.DreamCatcher.TestFixture</packageId>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>CoolNether123.DreamCatcher</packageId>
+      <displayName>DreamCatcher</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>CoolNether123.DreamCatcher</li>
+  </loadAfter>
+  <description>Developer-only Lucid Horizons gameplay and persistence fixture. Never include in release packages.</description>
+</ModMetaData>

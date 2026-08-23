@@ -23,7 +23,8 @@ namespace Dreams
         {
             get
             {
-                return $"A {vividness.ToString().ToLower()} dream {GetDreamTypeDescription(type)} about {subject.Label}. {GetEffectDescription()}";
+                return $"A {vividness.ToString().ToLower()} dream about {subject.Label}. " +
+                    $"It is {GetDreamTypeDescription(type)}. {GetEffectDescription()}";
             }
         }
 
@@ -32,17 +33,17 @@ namespace Dreams
             switch (dreamType)
             {
                 case DreamType.NightTerror:
-                    return "filled with absolute terror and dread";
+                    return "terrifying";
                 case DreamType.Nightmare:
-                    return "of fear and anxiety";
+                    return "full of fear and anxiety";
                 case DreamType.Mid:
-                    return "neither good nor bad";
+                    return "strange but neither pleasant nor upsetting";
                 case DreamType.Epic:
-                    return "of wonder and amazement";
+                    return "full of wonder";
                 case DreamType.Inspirational:
-                    return "of pure inspiration and possibility";
+                    return "an inspiring glimpse of new possibilities";
                 default:
-                    return "of unknown quality";
+                    return "hard to understand";
             }
         }
 
@@ -103,7 +104,7 @@ namespace Dreams
         {
             float effect = GetMoodEffect();
             string direction = effect > 0 ? "improve" : "worsen";
-            return $"When used, this dream will {direction} mood by {Math.Abs(effect):F1}.";
+            return $"This dream will {direction} mood by {Math.Abs(effect):F1}.";
         }
 
         public override void ExposeData()

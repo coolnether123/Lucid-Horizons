@@ -19,7 +19,7 @@
     <RecipeDef ParentName="DreamCraftingBase">
         <defName>CombineDreamParts</defName>
         <label>combine dream parts</label>
-        <description>Combine three dream parts to create a crafted dream.</description>
+        <description>Combine three dream parts into one crafted dream.</description>
         <jobString>Combining dream parts.</jobString>
         <ingredients>
             <li>
@@ -45,7 +45,7 @@
     <RecipeDef ParentName="DreamCraftingBase">
         <defName>AnalyzeDreamPart</defName>
         <label>analyze dream part</label>
-        <description>Analyze a dream part to gain research points.</description>
+        <description>Analyze one dream part for research points.</description>
         <jobString>Analyzing dream part.</jobString>
         <workAmount>2000</workAmount>
         <ingredients>
@@ -75,7 +75,7 @@
     <RecipeDef ParentName="DreamCraftingBase">
         <defName>EnhanceDream</defName>
         <label>enhance dream</label>
-        <description>Use additional dream parts to enhance an existing crafted dream.</description>
+        <description>Combine a crafted dream with two dream parts to improve it.</description>
         <jobString>Enhancing dream.</jobString>
         <workAmount>1500</workAmount>
         <ingredients>

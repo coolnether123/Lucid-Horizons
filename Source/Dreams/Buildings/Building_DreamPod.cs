@@ -83,7 +83,7 @@ namespace Dreams
         {
             if (!CanLaunchNow)
             {
-                Messages.Message("Cannot launch: pod not ready or lacks fuel.",
+                Messages.Message("The pod is not ready or needs fuel.",
                     MessageTypeDefOf.RejectInput);
                 return;
             }
@@ -101,7 +101,7 @@ namespace Dreams
 
             if (dreamItem == null)
             {
-                Messages.Message("Cannot launch: no dream item loaded.",
+                Messages.Message("Load a dream before launch.",
                     MessageTypeDefOf.RejectInput);
                 return;
             }

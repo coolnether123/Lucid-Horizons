@@ -5,7 +5,7 @@
         <defName>DreamCatcher</defName>
         <label>dream catcher</label>
         <description>A mystical device that captures dreams from sleeping pawns. Must be placed in a bedroom to function. Can store up to 4 dream parts.</description>
-        <thingClass>Building_Storage</thingClass>
+        <thingClass>Dreams.Building_DreamCatcher</thingClass>
         <graphicData>
             <texPath>Things/Building/DreamCatcher</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -44,7 +44,7 @@
         <defName>DreamLab</defName>
         <label>dream lab</label>
         <description>A specialized workbench for combining dream parts into usable dream items. Requires power to function.</description>
-        <thingClass>Building_WorkTable</thingClass>
+        <thingClass>Dreams.Building_DreamLab</thingClass>
         <graphicData>
             <texPath>Things/Building/DreamLab</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
@@ -85,7 +85,7 @@
         <defName>DreamPod</defName>
         <label>dream pod</label>
         <description>A specialized pod capable of transmitting dream items to other factions. Uses chemfuel as fuel.</description>
-        <thingClass>Building_PodLauncher</thingClass>
+        <thingClass>Dreams.Building_DreamPod</thingClass>
         <graphicData>
             <texPath>Things/Building/DreamPod</texPath>
             <graphicClass>Graphic_Single</graphicClass>

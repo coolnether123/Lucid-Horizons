@@ -3,7 +3,7 @@
     <ResearchProjectDef>
         <defName>DreamTechnology</defName>
         <label>dream technology</label>
-        <description>Learn to build Dream Catchers, allowing the collection of dream parts from sleeping colonists.</description>
+        <description>Learn to build Dream Catchers and collect dream parts from sleeping colonists.</description>
         <baseCost>1000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -16,7 +16,7 @@
     <ResearchProjectDef>
         <defName>AdvancedDreamCrafting</defName>
         <label>advanced dream crafting</label>
-        <description>Build Dream Labs to combine dream parts into powerful dream items that can affect mood and inspiration.</description>
+        <description>Learn to build Dream Labs, where colonists can combine dream parts into crafted dreams.</description>
         <baseCost>2000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
@@ -30,7 +30,7 @@
     <ResearchProjectDef>
         <defName>DreamEngineering</defName>
         <label>dream engineering</label>
-        <description>Advanced dream manipulation technology allowing the construction of Dream Pods for affecting faction relations through dreams.</description>
+        <description>Learn to build Dream Pods and send crafted dreams that change faction relations.</description>
         <baseCost>3000</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>

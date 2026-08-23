@@ -32,6 +32,7 @@
         <defName>CraftedDream</defName>
         <label>crafted dream</label>
         <description>A complete dream crafted from dream parts. Can be used on pawns for mood effects or sent to other factions via Dream Pod.</description>
+        <thingClass>Dreams.CraftedDream</thingClass>
         <graphicData>
             <texPath>Things/Item/CraftedDream</texPath>
             <graphicClass>Graphic_Single</graphicClass>

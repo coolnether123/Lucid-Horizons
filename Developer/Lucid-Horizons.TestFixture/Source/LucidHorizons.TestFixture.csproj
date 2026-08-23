@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RwtIsRimWorldMod>true</RwtIsRimWorldMod>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>LucidHorizons.TestFixture</AssemblyName>
+    <RootNamespace>LucidHorizons.TestFixture</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>true</Deterministic>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\1.5\Assemblies\</OutputPath>
+    <RwtUseUnityImGui>true</RwtUseUnityImGui>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dreams">
+      <HintPath>..\..\..\1.5\Assemblies\Dreams.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -15,7 +15,7 @@ namespace Dreams
             {
                 var harmony = new Harmony("CoolNether123.DreamCatcher");
                 harmony.PatchAll(Assembly.GetExecutingAssembly());
-                Log.Message("DreamCatcher mod initialized successfully.");
+                Log.Message("DreamCatcher initialized.");
             }
             catch (Exception ex)
             {

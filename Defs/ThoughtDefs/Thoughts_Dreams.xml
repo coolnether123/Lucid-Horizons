@@ -8,7 +8,7 @@
         <stages>
             <li>
                 <label>night terror</label>
-                <description>I experienced a terrifying dream that felt all too real. The horror still lingers...</description>
+                <description>That dream felt real. I can still feel the terror clinging to me.</description>
                 <baseMoodEffect>-20</baseMoodEffect>
             </li>
         </stages>
@@ -22,7 +22,7 @@
         <stages>
             <li>
                 <label>nightmare</label>
-                <description>I had a disturbing dream that left me feeling uneasy.</description>
+                <description>What an awful dream. I can't shake the unease.</description>
                 <baseMoodEffect>-12</baseMoodEffect>
             </li>
         </stages>
@@ -36,7 +36,7 @@
         <stages>
             <li>
                 <label>strange dream</label>
-                <description>I had an odd dream. Not particularly good or bad, just... different.</description>
+                <description>That was an odd dream. Not good or bad, just strange.</description>
                 <baseMoodEffect>6</baseMoodEffect>
             </li>
         </stages>
@@ -50,7 +50,7 @@
         <stages>
             <li>
                 <label>epic dream</label>
-                <description>I had an amazing dream that filled me with wonder and excitement!</description>
+                <description>What a dream! I woke up full of wonder.</description>
                 <baseMoodEffect>12</baseMoodEffect>
             </li>
         </stages>
@@ -64,7 +64,7 @@
         <stages>
             <li>
                 <label>inspirational dream</label>
-                <description>I experienced a truly inspiring dream that has changed my perspective on everything!</description>
+                <description>That dream showed me possibilities I had never considered.</description>
                 <baseMoodEffect>20</baseMoodEffect>
             </li>
         </stages>
@@ -91,7 +91,7 @@
         <stages>
             <li>
                 <label>dreamed about rival</label>
-                <description>I had an unsettling dream about someone I don't like.</description>
+                <description>I dreamed about someone I can't stand. Even asleep, I couldn't get away from them.</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
         </stages>

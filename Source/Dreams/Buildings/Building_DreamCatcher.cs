@@ -98,7 +98,7 @@ namespace Dreams
                     FleckMaker.ThrowLightningGlow(startPos, Map, 0.5f);
                     FleckMaker.ThrowLightningGlow(endPos, Map, 0.5f);
 
-                    Messages.Message($"{pawn.LabelShort}'s dream was caught by the dream catcher!",
+                    Messages.Message($"The dream catcher captured {pawn.LabelShort}'s dream.",
                         new LookTargets(new TargetInfo[] { new TargetInfo(this), new TargetInfo(pawn) }),
                         MessageTypeDefOf.NeutralEvent);
                 }
