@@ -1,6 +1,6 @@
 # Lucid Horizons / DreamCatcher Agent Guide
 
-Also follow `A:\Dev\RimWorld\AGENTS.md`.
+Also follow `H:\Dev\RimWorld\AGENTS.md`.
 
 This repository folder is Lucid Horizons; `About\About.xml` is authoritative
 for its current DreamCatcher identity and supported RimWorld versions. Do not
